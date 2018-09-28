@@ -13,7 +13,7 @@ function userInputLength() {
 /* 1. Listen for all clicks in a parent DOM node (UL element)
    2. Make sure we are not clicking the UL element but its children instead,
    if so then store the clicked item in a variable.
-   3. If element clicked it's and LI then toggle cross it.
+   3. If element clicked it's a LI then toggle cross it.
    4. If element clicked it's the button, then remove whole LI */
 
 function clickHandler(event) {

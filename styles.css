@@ -1,0 +1,37 @@
+.done {
+	text-decoration: line-through;
+}
+
+/* From StackOverFlow and tuned a bit*/
+.del-btn
+{
+  display:inline-block;
+  box-sizing:border-box;
+  width:1rem;
+  height:1rem;
+  margin-left: 10px;
+  border: 2px solid red;
+  border-radius:100%;
+  background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, white 46%,  white 56%,transparent 56%, transparent 100%), 
+  -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, white 46%,  white 56%,transparent 56%, transparent 100%);
+  background-color:red;
+  /* Firefox */
+  -moz-transition: all 1s ease;
+  /* WebKit */
+  -webkit-transition: all 1s ease;
+  /* Opera */
+  -o-transition: all 1s ease;
+  /* Standard */
+  transition: all 1s ease;
+}
+
+.del-btn:hover {
+	/* Firefox */
+	-moz-transform:  rotate(360deg) ;
+	/* WebKit */
+	-webkit-transform: rotate(360deg) ;
+	/* Opera */
+	-o-transform:  rotate(360deg) ;
+	/* Standard */
+	transform:  rotate(360deg) ;
+}
